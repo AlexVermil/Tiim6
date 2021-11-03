@@ -3,7 +3,7 @@
 
 ## Eesmärk 
 
-On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/tuntud inimese kohta
+On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/tuntud inimese kohta.
 
 ## To-do list
 
