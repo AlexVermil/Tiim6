@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem clamp(1rem, 5vw, 2rem);
+}
+
+.main-header_nav{
+    display: none;
+}
+
+nav{
+flex: 1;
+display: flex;
+justify-content: space-evenly;
+max-width: 50%;
+
+
+}
+nav a{
+display: inline;
+margin: 0;
+padding: 0;
+}
+@media (min-width:480px) {
+    .main-header_nav{
+        display: flex;
+    }
+   .main-header_hamburger{
+        display: none;
+    }
