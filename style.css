@@ -21,6 +21,7 @@ display: inline;
 margin: 0;
 padding: 0;
 }
+
 @media (min-width:480px) {
     .main-header_nav{
         display: flex;
@@ -28,3 +29,6 @@ padding: 0;
    .main-header_hamburger{
         display: none;
     }
+.project-header{
+    display: flex;
+}
