@@ -28,10 +28,10 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
 - Robin Kukk
 - Sander Vilter
 
-Projekt:
+### Projekt:
 
 Iga tiimi liikme nime ja vastuseid kolmele küsimusele
--Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
--Üks pehme oskus, mida õppisin ja endas arendasin
--Üks tehniline oskus, mida õppisin ja endas arendasin
+- Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+- Üks pehme oskus, mida õppisin ja endas arendasin
+- Üks tehniline oskus, mida õppisin ja endas arendasin
 
