@@ -35,6 +35,12 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
      - Üks tehniline oskus, mida õppisin ja endas arendasin: õppisin kasutama Figmat, sain uusi teadmisi HTML-is ja ka CSS-is.
      - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas: hetkel ülesanne mida ma tegin, sobis mulle, kuna sain teada palju uut.
 
+- Liisi Kuusküll
+     - Üks pehme oskus, mida õppisin ja endas arendasin: tiimi töö
+     - Üks tehniline oskus, mida õppisin ja endas arendasin: tutvusin HTML-iga
+     - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas: jäin enda ülesandega rahule
+     
+
 Iga tiimi liikme nime ja vastuseid kolmele küsimusele
 - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
 - Üks pehme oskus, mida õppisin ja endas arendasin
