@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
-    background-color: #CBF1EF;
+    background-color: white;
 }
 .main-header_hamburger {
     height: 25px;
@@ -35,6 +36,11 @@ header{
     justify-content: center;
     align-items: center;
     min-width: 300px;
+    scroll-margin-top: 50px;
+}
+.win95 {
+    width: 25%;
+    height: auto;
 }
 .bill {
     border-radius: 100px;
@@ -63,6 +69,24 @@ header{
     width: 50%;
     height: auto;
 }
+.win95-box {
+    background-color: #FFB901;
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bmgf {
+    background-color: #669551;
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
 .altair-box {
     margin-top: 10px;
     display: flex;
@@ -70,12 +94,15 @@ header{
     flex-direction: column;
     border-radius: 10px;
     background: rgba(189, 48, 48, 0.47);
+    margin-bottom: 10px;
 
 
 
 }
 
-
+.logo {
+    height: 60px;
+}
 nav{
 
 flex: 1;
