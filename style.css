@@ -1,166 +1,224 @@
 * {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: white;
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: white;
 }
 .main-header_hamburger {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 
-header{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem clamp(1rem, 5vw, 2rem);
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-style: italic;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem clamp(1rem, 5vw, 2rem);
+}
+
+.accomplishments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  .accomplishments {
+    grid-template-columns: 1fr;
+  }
+}
+
 .microsoft-box {
-    display: flex;
-    background: rgba(238, 167, 171, 0.3);
-    border: 1px solid #000000;
-    border-radius: 10px;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  background: #01a4ef;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+  padding: 16px;
+}
+.billTextContainer {
+  background-color: #b4b4b4;
+  padding: 32px;
+  height: fit-content;
+  border-radius: 10px;
+}
 
-}
-.billTextContainer{
-    width: 50%;
-    min-width: 300px;
-}
-.billContainer{
-    width:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 300px;
-    scroll-margin-top: 50px;
+.billContainer {
+  display: flex;
+  scroll-margin-top: 50px;
 }
 .win95 {
-    width: 25%;
-    height: auto;
+  width: 25%;
+  height: auto;
 }
 .bill {
-    border-radius: 100px;
+  border-radius: 10px;
+  margin-right: 16px;
+  width: 450px;
 }
 .project-header {
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color: rgba(37, 107, 26, 0.4);
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  border-radius: 10px;
+  background-color: #dee0df;
+  padding: 16px;
 }
-.main-header_nav{
-    display: none;
+.main-header_nav {
+  display: none;
 }
 .altair-img {
-    width: 25%;
-    height: auto;
+  width: 25%;
+  height: auto;
 }
 .text {
-    font-size: 12px;
-    width: 80%;
+  font-size: 12px;
 }
 .ms-logo {
-    width: 50%;
-    height: auto;
+  width: 50%;
+  height: auto;
 }
 .win95-box {
-    background-color: #FFB901;
-    display: flex;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    flex-direction: column;
-    align-items: center;
-
+  background-color: #ffb901;
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  order: 2;
+  padding: 16px;
 }
 .contact-section {
-    display: flex;
-    align-items: center;
-    max-width: 1280px;
-    width: 100%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #dee0df;
+  border-radius: 10px;
+  align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  padding: 15px 50px 30px 50px;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  min-width: 600px;
+  gap: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.social-icons a > img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+
+.footer-billy {
+  position: relative;
+}
+
+.billys-smile {
+  width: 134px;
+  height: 134px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
 .contact-container {
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 50%;
-    border-radius: 10px;
-    height: 200px;
-    align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  border-radius: 10px;
+  height: 200px;
+  align-items: center;
 }
 .ellipse {
-    border: 1px solid black;
-    border-radius: 100%;
-    height: 30%;
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 30%;
 }
 .bmgf {
-    background-color: #669551;
-    display: flex;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+  background-color: #669551;
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  order: 4;
+  padding: 16px;
 }
 .altair-box {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    background: rgba(189, 48, 48, 0.47);
-    margin-bottom: 10px;
-
-
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #f25022;
+  border: 1px solid #000000;
+  height: 100%;
+  order: 3;
+  padding: 16px;
 }
 
 .logo {
-    height: 60px;
+  height: 60px;
 }
 
-nav{
-
-flex: 1;
-display: flex;
-justify-content: space-evenly;
-max-width: 50%;
-
-
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 50%;
 }
-nav a{
-
-display: inline;
-margin: 0;
-padding: 0;
+nav a {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    max-width: 1280px;
-    width: 100%;
-    margin: auto;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
 }
+
 .contacts {
-    max-width: 1280px;
-    width: 100%;
-    margin: auto;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
 }
 
-@media (min-width:480px) {
-    .text {
-        font-size: 20px;
-    }
-    .main-header_nav{
-        display: flex;
-    }
-   .main-header_hamburger{
-        display: none;
-
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  text-transform: uppercase;
 }
+
+@media (min-width: 480px) {
+  .text {
+    font-size: 20px;
+  }
+  .main-header_nav {
+    display: flex;
+  }
+  .main-header_hamburger {
+    display: none;
+  }
 }
