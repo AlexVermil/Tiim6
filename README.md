@@ -9,7 +9,7 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
 
 - Esileht
 - Tutvustus - ülevaade kellega tegu: pilt+tekst
-- Saavutused - kõige mahukam ja pigem sektsioon, kus iga saavutus on pikemalt lahti kirjutatud
+- Saavutused - kõige mahukam ja pikem sektsioon, kus iga saavutus on pikemalt lahti kirjutatud
 - Kontakt - üldkontaktandmed
 
 
@@ -27,6 +27,7 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
 - Risto Vill
 - Robin Kukk
 - Sander Vilter
+- Alex Vermillion
 
 ### Projekt:
 
