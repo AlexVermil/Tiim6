@@ -15,7 +15,7 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
 
 ### Lingid
 
-(https://www.figma.com/team_invite/redeem/5zj85WtUyhB1Z1kYqJryhS "Figma")
+
 
 ### Meeskond
 
