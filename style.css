@@ -81,6 +81,9 @@ header{
 .contact-section {
     display: flex;
     align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
 }
 .contact-container {
     border: 1px solid black;
@@ -139,6 +142,11 @@ margin: 0;
 padding: 0;
 }
 .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+.contacts {
     max-width: 1280px;
     width: 100%;
     margin: auto;
