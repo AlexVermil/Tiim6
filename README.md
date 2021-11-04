@@ -30,7 +30,6 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
 
 Projekt:
 
---------------- 
 Iga tiimi liikme nime ja vastuseid kolmele küsimusele
 -Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
 -Üks pehme oskus, mida õppisin ja endas arendasin
