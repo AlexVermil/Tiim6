@@ -50,7 +50,7 @@ Iga tiimi liikme nime ja vastuseid kolmele küsimusele
 - Merlin Praks
      - Üks pehme oskus, mida õppisin ja endas arendasin: meeskonna töö
      - Üks tehniline oskus, mida õppisin ja endas arendasin: tutvusin rohkem CSS gridi paigutusega
-     - as oleksid tahtnud täita mingit muud ülesannet selles meeskonnas:jäin rahule antud ülesannetega 
+     - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas:jäin rahule antud ülesannetega 
 - Kaspar Vakkum 
      - Üks pehme oskus, mida õppisin ja endas arendasin oli tiimi töö
      - Üks tehniline oskus, mida õppisin ja endas arendasin oli disaini õppimine ja tegemine Figmas
