@@ -34,7 +34,7 @@ header {
   gap: 16px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
   .accomplishments {
     grid-template-columns: 1fr;
   }
@@ -68,10 +68,13 @@ header {
 .bill {
   border-radius: 10px;
   margin-right: 16px;
-  width: 450px;
+  width: 200px;
+
 }
 .project-header {
   display: flex;
+  /* flex-wrap: wrap-reverse; */
+  justify-content: center;
   border-radius: 10px;
   background-color: #dee0df;
   padding: 16px;
@@ -84,7 +87,23 @@ header {
   height: auto;
 }
 .text {
-  font-size: 12px;
+  font-size: 16px;
+}
+#drop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    padding: 0 0;
+}
+.dropdown {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
 }
 .ms-logo {
   width: 50%;
@@ -116,15 +135,15 @@ header {
 .social-icons {
   display: flex;
   justify-content: space-around;
-  min-width: 600px;
+  min-width: 300px;
   gap: 16px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
 .social-icons a > img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 100%;
 }
@@ -176,11 +195,40 @@ header {
   order: 3;
   padding: 16px;
 }
-
+.main-header_nav {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
 .logo {
-  height: 60px;
+  height: 70px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
 }
 
+@media (max-width: 900px) {
+    .billys-smile {
+        display: none;
+    }
+    .social-icons {
+        min-width: 80px;
+    }
+    .project-header {
+        flex-wrap: wrap-reverse;
+    }
+    .bill {
+        border-radius: 100%;
+    }
+    .main-header_nav {
+        font-size: 0;
+    }
+    .logo {
+        height: 60px;
+    }
+}
 nav {
   flex: 1;
   display: flex;
@@ -210,15 +258,30 @@ h1 {
   font-style: italic;
   text-transform: uppercase;
 }
-
-@media (min-width: 480px) {
+.drop-link {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.x-button {
+    width: 100%;
+    background-color: white;
+    font-size: 50px;
+}
+@media (min-width: 900px) {
   .text {
     font-size: 20px;
   }
   .main-header_nav {
     display: flex;
   }
-  .main-header_hamburger {
+  .hamburger-button {
     display: none;
   }
+  .bill {
+      width: 450px;
+  }
+
 }

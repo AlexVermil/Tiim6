@@ -17,12 +17,16 @@
     <header>
         <a href="#"><img class="logo" src="/images/Rectangle 7.png" alt=""></a>
         <nav class="main-header_nav">
-            <a href="#bill">Introduction</a>
             <a href="#acc">Achievements</a>
             <a href="#cont">Contact</a>
         </nav>
-        <img src="/images/icons8-menu-100.png" class="main-header_hamburger">
+        <button class="hamburger-button" onclick="toggle()"><img src="/images/icons8-menu-100.png" class="main-header_hamburger"></button>
     </header>
+    <div id="drop" class="dropdown">
+        <a class="drop-link" href="#acc">Achievements</a>
+        <a class="drop-link" href="#cont">Contact</a>
+        <button class="x-button" onclick="closeMenu()">X</button>
+    </div>
     <hr>
 
     <section class="container">
@@ -81,16 +85,24 @@
                 <div class="footer-billy">
                     <img class="billys-smile" src="/images/Bill_Gates_2017_(cropped).jpg" alt="Billy naeratus">
                 </div>
-                <div class="social-icons">
+                <div id="cont" class="social-icons">
                     <a href="">
-                        <img src="/images/Ellipse 3.png" alt="Mobile icon">
+                        <img class="social-icon" src="/images/Ellipse 3.png" alt="Mobile icon">
                     </a>
                     <a href="">
-                        <img src="/images/Ellipse 2.png" alt="Mobile icon">
+                        <img class="social-icon" src="/images/Ellipse 2.png" alt="Mobile icon">
                     </a>
                 </div>
             </div>
         </section>
+        <script>
+            const toggle = () => {
+                document.getElementById("drop").style.display = "flex"
+            }
+            const closeMenu = () => {
+                document.getElementById("drop").style.display = "none"
+            }
+        </script>
 </body>
 
 </html>
