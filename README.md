@@ -63,4 +63,8 @@ Iga tiimi liikme nime ja vastuseid kolmele küsimusele
      - Üks pehme oskus, mida õppisin ja arendasin endas oli tiimitöö
      - Üks tehniline oskus, mida õppisin ja endas arendasin: CSS oskused
      - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas: olin rahul enda ülesandega
+- Robin Kukk
+     - Üks pehme oskus, mida õppisin ja arendasin - Õpetamine ja tiimitöö.
+     - Üks tehniline oskus, mida õppisin ja endas arendasin - Sain CSSi meelde tuletada.
+     - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas - Olin enda ülesandega rahul.
 
