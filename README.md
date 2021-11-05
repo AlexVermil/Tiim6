@@ -59,4 +59,8 @@ Iga tiimi liikme nime ja vastuseid kolmele küsimusele
      - Üks pehme oskus, mida õppisin ja endas arendasin: tiimitöö
      - Üks tehniline oskus, mida õppisin ja endas arendasin: HTML, CSS ja Figma okuste arendamine
      - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas: Oleksin tahtnud pigem tegeleda HTML ja CSS-iga
+- Kaarel Kallas
+     - Üks pehme oskus, mida õppisin ja arendasin endas oli tiimitöö
+     - Üks tehniline oskus, mida õppisin ja endas arendasin: CSS oskused
+     - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas: olin rahul enda ülesandega
 
