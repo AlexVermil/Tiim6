@@ -14,7 +14,7 @@ On valmistada veebileht, mis annab ülevaate multikategelase/muinasjututegelase/
 
 
 ### Lingid
-[Figma](https://www.figma.com/team_invite/redeem/5zj85WtUyhB1Z1kYqJryhS)
+[Figma](https://www.figma.com/file/9fSRyWvNwgW4H2En6J7wOO/Untitled?node-id=0%3A1)
 
 [Portfolio](https://tak20kallas.itmajakas.ee/)
 
